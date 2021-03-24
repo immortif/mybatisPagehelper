@@ -3,7 +3,6 @@ package ecom.mbc;
 
 import java.sql.Timestamp;
 import java.text.SimpleDateFormat;
-import java.util.Date;
 
 import org.junit.Test;
 

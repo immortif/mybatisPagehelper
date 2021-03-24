@@ -5,7 +5,7 @@
 
     <properties resource="db.properties" />
     <typeAliases>
-        <package name="ecom.mbc.mybatis_pagehelper.pojo" />
+        <package name="ecom.mbc.pojo" />
     </typeAliases>
 
     <environments default="mysql_developer">
@@ -20,7 +20,7 @@
         </environment>
     </environments>
     <mappers>
-        <mapper resource="mappers/*.xml" />
+        <mapper resource="mappers/UserMapper.xml" />
     </mappers>
 
 </configuration>
